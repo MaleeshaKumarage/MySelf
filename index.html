@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
   <title>Bootstrap Example</title>
@@ -275,18 +275,30 @@
 </div>
 <div id="section6" class="container-fluid bg-info" style="padding-top:70px;padding-bottom:0px">
   <h1 class="display-4 font-weight-bold d-flex justify-content-center" style="margin-bottom: 50px;">Contact Me</h1>
-  <div id="container" style="max-height: 30vh;">
-       <div id="form-box">
-      <i id="prev-btn" class="fas fa-arrow-left"></i>
-      <i id="next-btn" class="fas fa-arrow-right"></i>
-      <div id="input-group">
-        <input id="input-field" required>
-        <label id="input-label"></label>
-        <div id="input-progress"></div>
+  <div class="row">
+      <div class="col-sm-4">
+
       </div>
-      <div id="progress-bar"></div>
-    </div>
+      <div class="col-sm-4">
+          <form>
+              <div class="form-group">
+                  <label for="email">Email address:</label>
+                  <input type="email" class="form-control" placeholder="Enter email" id="email">
+              </div>
+              <div class="form-group">
+                  <label for="message">Message:</label>
+                  <textarea class="form-control" placeholder="Enter your message.." id="pwd" style="width:100%;height:100%"> </textarea>
+              </div>
+              
+              <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+      </div>
+      <div class="col-sm-4">
+
+      </div>
+
   </div>
+ 
   </div>
   <div class="jumbotron text-center" style="margin-bottom:0">
     <p>Footer</p>
